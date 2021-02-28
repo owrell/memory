@@ -1,11 +1,11 @@
 #include "system.h"
-//#include "memory.h/"
-#include "test.h"
+#include "memory.h"
+
 void setup() {
+  Serial.begin(115200);
   start_setup();
   menu();
-  ctr1();
-//  myplan(plan);
+  myplan(plan);
 //  while (1) {
 //    readADC();
 //    for (int a = 0; a < 14; a++) {
