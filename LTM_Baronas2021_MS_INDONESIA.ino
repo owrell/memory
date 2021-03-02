@@ -35,7 +35,8 @@ void loop() {
     warna_break[ctr],
     delay_break[ctr],
     dbreak_mode[ctr]
-  );
+);
+
   //  if (ctr >= stop_ct) {
   //    unsigned long lst;
   //    //    lcd.clrScr();
